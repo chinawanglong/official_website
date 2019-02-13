@@ -33,14 +33,14 @@
             <span><a href="http://www.layui.com/admin/pro/" target="_blank">在线演示</a></span>
             <span><a href="http://www.layui.com/admin/" target="_blank">前往官网</a></span>
         </p>
-    </div>
+    </div>          
 </div>
 
 <script src="/static/admin/layuiadmin/layui/layui.js"></script>
 <script>
     layui.config({
         base: '/static/admin/layuiadmin/' //静态资源所在路径
-    }).use(['layer'],function () {
+    }).use(['layer'],function () {           
         var layer = layui.layer;
 
         //表单提示信息
