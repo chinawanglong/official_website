@@ -1,6 +1,6 @@
 @extends('admin.login_register.base')
 
-@section('content')                l
+@section('content')               
     <div class="layadmin-user-login-box layadmin-user-login-body layui-form">
         <form action="{{route('admin.login')}}" method="post">
             {{csrf_field()}}
