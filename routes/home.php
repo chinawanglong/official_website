@@ -8,5 +8,5 @@
 
 Route::group(['namespace' => 'Home','prefix' => 'home'], function (){
     // 首页
-    Route::any('index','IndexController@index');
+    Route::any('index','IndexController@index')->name('home.index');
 });

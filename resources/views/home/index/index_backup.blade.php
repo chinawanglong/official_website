@@ -1,6 +1,5 @@
-@extends('layout.home')
 
-@section('content')
+<body>
 <!-- Navigation
 ==========================================-->
 <nav id="tf-menu" class="navbar navbar-default navbar-fixed-top">
@@ -528,6 +527,14 @@
 		</div>
 	</div>
 </nav>
-    
 
-@endsection
+
+<script src="http://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+<script type="text/javascript" src="{{ asset('static/home/js/bootstrap.js') }}"></script>
+<script type="text/javascript" src="{{ asset('static/home/js/SmoothScroll.js') }}"></script>
+<script type="text/javascript" src="{{ asset('static/home/js/jquery.isotope.js') }}"></script>
+<script src="{{ asset('static/home/js/owl.carousel.js') }}"></script>
+<script type="text/javascript" src="{{ asset('static/home/js/main.js') }}"></script>
+
+</body>
+</html>
